@@ -45,6 +45,7 @@
 /* Begin PBXBuildFile section */
 		057D6D991154157100BE10F7 /* MyView.rb in Resources */ = {isa = PBXBuildFile; fileRef = 057D6D981154157100BE10F7 /* MyView.rb */; };
 		057D6D9C1154158300BE10F7 /* MyWindowController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 057D6D9B1154158300BE10F7 /* MyWindowController.rb */; };
+		057D6DBB11542E8500BE10F7 /* macruby_http.rb in Resources */ = {isa = PBXBuildFile; fileRef = 057D6DBA11542E8500BE10F7 /* macruby_http.rb */; };
 		2BFA9DA710CDF852007972A1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFA9DA510CDF852007972A1 /* MainMenu.xib */; };
 		4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */; };
 		4DE3BE140D8651D900ECA448 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE3BE130D8651D900ECA448 /* MacRuby.framework */; };
@@ -68,6 +69,7 @@
 /* Begin PBXFileReference section */
 		057D6D981154157100BE10F7 /* MyView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MyView.rb; sourceTree = "<group>"; };
 		057D6D9B1154158300BE10F7 /* MyWindowController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MyWindowController.rb; sourceTree = "<group>"; };
+		057D6DBA11542E8500BE10F7 /* macruby_http.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = macruby_http.rb; sourceTree = "<group>"; };
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -99,6 +101,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				057D6DBA11542E8500BE10F7 /* macruby_http.rb */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				2BFA9DA710CDF852007972A1 /* MainMenu.xib in Resources */,
 				057D6D991154157100BE10F7 /* MyView.rb in Resources */,
 				057D6D9C1154158300BE10F7 /* MyWindowController.rb in Resources */,
+				057D6DBB11542E8500BE10F7 /* macruby_http.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
