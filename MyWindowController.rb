@@ -5,12 +5,10 @@
 # Copyright 2010 10to1. All rights reserved.
 
 class MyWindowController < NSWindowController
-	attr_accessor :my_label
 	attr_accessor :word_view	
 	
 	def awakeFromNib
-		my_label.setStringValue("Piet")
-		MacRubyHTTP.post("http://www.postbin.org/1ka5qz6", {:payload => "user=pidet&score=519", :delegation => self }) 
+		#MacRubyHTTP.post("http://www.postbin.org/1ka5qz6", {:payload => "user=pidet&score=519", :delegation => self }) 
 	end
 	
 #	def send_post_data
